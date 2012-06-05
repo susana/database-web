@@ -1,0 +1,135 @@
+/* CSS for video games database website */
+
+body
+{
+	background-color: #B4CAE2;
+	font-family: 'Courier New', monospace;
+	text-transform: uppercase;
+	color: black;
+	font-size: .83em;
+
+}
+
+a:link, a:visited
+{
+	color: #2D4765;
+	text-decoration:none;
+}
+
+a:hover
+{
+	color: #FDA431;
+	text-decoration:none;
+}
+
+#container
+{
+	padding: 2em 0em 0em 0em;
+	width: 500px;
+	margin: 0 auto;
+}
+
+#header
+{
+	float: top;
+	width: 99%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#nav
+{
+	width: 99%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#content
+{
+	width: 99%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 1em 1em 1em 1em;
+}
+
+#tableContainer
+{
+	width: 1200px;
+	margin: 0 auto;
+	background-color: transparent;
+	padding: 2em 2em 2em 2em;
+}
+
+#tableContent
+{
+	width: 99%;
+	margin: auto;
+	text-align:center;
+}
+
+#query
+{
+	float: top;
+	text-align: left;
+	width: 99%;
+	margin: auto;
+	text-transform: none;
+}
+
+#results
+{
+	font-weight: bold;
+	font-size: 1.2em;
+	margin: auto;
+	text-align:center;
+}
+
+.emphasize
+{
+	font-weight: bold;
+}
+
+form
+{
+	text-align: left;
+}
+
+label
+{
+	font-weight: bold;
+}
+
+ul, li
+{
+	margin: 0px 0px 0px 5px;
+	padding: 0;
+}
+
+table, tr, td, th
+{
+	font-family: 'Courier New', monospace;
+	text-transform: uppercase;
+	color: black;
+	font-size: 1em;
+}
+
+table
+{
+	width: 1100px;
+}
+
+td, th
+{
+	padding: .8em;
+}
+
+td
+{
+	background-color: #9DB9D9;
+}
+
+th
+{
+	background-color: #2D4765;
+	color: #E5E5E5;
+}

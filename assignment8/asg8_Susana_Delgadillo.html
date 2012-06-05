@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Mad Libs</title>
+    <link href="asg8_Susana_Delgadillo.css" rel="stylesheet" type="text/css">   
+</head>
+ 
+<body>
+<h2>Mad Libs: A Voyage to Arcturus by David Lindsay</h2>
+
+	<form id="IFForm" name="IFForm" method="post" action="http://schoolwebserver.edu/cgi-bin/cgiwrap/idef/asg8_Susana_Delgadillo.php">
+		<fieldset>
+			<p>
+			<label>Your last name
+			<input type="text" name="lastName" value="" />
+			</label>
+			</p>
+			
+			<p>
+			<label>Adjective
+			<input type="text" name="adj1" value="" />
+			</label>
+			</p>
+			
+			<p>
+			<label>Another Adjective
+			<input type="text" name="adj2" value="" />
+			</label>
+			</p>
+			
+			<p>
+			<label>A Third Adjective
+			<input type="text" name="adj3" value="" />
+			</label>
+			</p>
+			
+			<p>
+			<label>A Fourth Adjective
+			<input type="text" name="adj4" value="" />
+			</label>
+			</p>
+			
+			<p>
+			<label>Noun
+			<input type="text" name="noun1" value="" />
+			</label>
+			</p>
+			
+			<p>
+			<label>Another Noun
+			<input type="text" name="noun2" value="" />
+			</label>
+			</p>
+			
+			<p>
+			<label>Noun: a body part
+			<input type="text" name="bodyPart" value="" />
+			</label>
+			</p>
+			
+			<p>
+			<label>Time</label>
+			<input type="radio" value="evening" name="time" checked="check"/>Evening
+			<input type="radio" value="afternoon" name="time" />Afternoon
+			<input type="radio" value="morning" name="time" />Morning
+			</label>
+			</p>
+						
+			<p>
+			<label>Noun: a continent
+			<select name="continent"> 
+				<option value="African">Africa</option> 
+				<option value="Asian">Asia</option> 
+				<option value="Antarctican">Antarctica</option> 
+				<option value="Australian">Australia</option> 
+				<option value="European">Europe</option> 
+				<option value="North American">North America</option>
+				<option value="South American">South America</option> 
+			</select>
+			</label>
+			</p>
+			
+			<p>
+			<label>Answer this question: Will you take a drink?
+			<textarea name="drink" rows="3" cols="40"></textarea>
+			</label>
+			</p>
+			
+			<p>
+			<label>Answer this question: Will the materialisation take place?
+			<textarea name="materialization" rows="3" cols="40"></textarea>
+			</label>
+			</p>
+			
+			<p>
+			<label>Highlight your narrative additions?
+			<input type="checkbox" name="highlight" />
+			</label>
+			</p>				
+		</fieldset>
+		
+		<p>
+		<input type="submit" value="Submit form" name="submit"/>
+		<input type="reset" value="Reset form" />
+		</p>
+	</form>
+
+</body>
+</html>
